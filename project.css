@@ -1,0 +1,283 @@
+
+/* Change the background of the body, I wanted to wait on font style until I finished the website
+   to see what looked best when finished */
+body {
+	background-color: #00005D; /* Dark blue background */
+	
+}
+/* Wrapper styling, to wrap everything with the following formats */
+#wrapper { 
+	background-color: #FFFFFF; /* White background */
+        color: #000066;	/*Dark blue text */
+        width: 80%;	/* Set the width to 80% */
+	margin: auto;	/* Center the wrapper */
+        min-width:940px; /* Minimum width to 940px, to ensure the content looks presentable */
+	overflow:auto;	/* Handle overflow */
+} 
+/* Handles main content styling */
+main {
+	padding-top: 0; /* No top padding */
+	padding-left: 0; /* No left padding */
+	padding-right: 0; /* No right padding */
+	padding-bottom: 2em; /* 2em padding to the bottom */
+	display: block; /* Block display */
+	margin-left: 200px; /* Left margin to 200px for spacing */
+	margin-right:250px; /* Right margin to 250px for spacing */
+	overflow: auto; /* Handle overflow */
+	
+}
+
+/* Hanldes header styling */
+header {
+	background-color: #869dc7; /* Light blue background */
+        color: #00005D; /* Dark blue text color */
+	padding-top: 5px; /* 5px top padding */
+	padding-bottom: 5px; /* 5px bottom padding */
+	text-align: center; /* Aligns text center */
+	font-size: 150%; /* Sets font size to 150% */
+}
+/* Handles h1 styling */
+h1 {
+	color: #00005D; /* Dark blue text color */
+	
+}
+/* Handles paragraph styling */
+p {
+	font-size: 120%; /* Sets font size to 120% */
+}
+/* Handles navigation styling */
+nav { 
+	font-weight: bold; /* Bold font */
+	font-size: 2em; /* Sets font size to 2em */
+	width: 200px; /* Sets width to 200% */
+	float: left; /* Floats left */
+}
+/* Handles link styling in navigation */	
+nav a { 
+	text-decoration: none; /* Removes the underline in links */
+	position:fixed; /* Sets the position to fix, allows the links to scroll with page */
+	font-weight:bold; /*Bolds font */
+	color: blue; /* Sets text to blue */
+	padding: 10px; /* Sets padding to 10px */
+}
+/* Handles visited link styling */
+nav a:visited{
+	color: blue; /* Sets text to blue when visited */
+}
+/* Handles list styling */
+nav ul {
+	list-style-type: none; /* Removes bulleted list */
+	padding: 10px; /* Sets padding to 10px */
+}
+/* Handles list item styling */
+nav li {
+	padding-bottom: 60px; /* Sets bottom padding to 60px */
+}
+/* Handles footer styling */
+footer {
+	background-color: #FFFFFF; /* White background */
+        color: #000000; /* Sets text color to black */
+        width: 80%;  /* Sets width to 80% */
+	margin: auto; /* Sets margin to auto, centers the footer */
+        min-width:940px; /* Minimum width to 940px, to ensure the content looks presentable */
+	overflow:auto; /* Handles overflow */
+	text-align: center; /* Aligns text center */
+	font-size: 75%; /* Sets font size to 75% */
+}
+/* Handles informationcolumn styling */
+#informationcolumn { 
+	margin-left: 160px; /* Sets left margin to 160 px */
+	background-color: #FFFFFF; /* Sets background color to white */
+	color: #000000; /* Sets font color to black */
+	margin-bottom: 15%;
+}
+
+		
+/* Hanldes orcaHome picture styling */
+#orcaHome {
+	padding: 10px; /* Sets padding to 10px */
+	margin-left: 250px; /* Sets left margin to 250px */
+	margin-right: 120px; /* Sets right margin to 120px */
+	
+}
+/* Hanldes orcaAbout picture styling */
+#orcaAbout {
+	padding-top: 70px; /* Sets top padding to 70px */
+	margin-left: 80px; /* Sets left margin to 80px */
+	margin-right: 120px; /* Sets right margin to 120px */
+}
+/* Handles trash picture styling */
+#trash { 
+	padding-top: 70px; /* Sets top padding to 70px */
+	margin-left: 80px; /* Sets left margin to 80px */
+	margin-right: 120px; /* Sets right margin to 120px */
+}
+/* Handles fourOrcas picture styling */
+#fourOrcas {
+	padding-top: 70px;	/* Sets top padding to 70px */
+	margin-left: 80px;	/* Sets left margin to 80px */	
+	margin-right: 120px;	/* Sets right margin to 120px */
+}
+/* Handles oceanContact picture styling */
+#oceanContact{
+	padding: 10px; /* Sets padding to 10px */
+	margin-left: 250px; /* Sets left margin to 250px */
+	margin-right: 120px; /* Sets right margin to 120px */
+}
+
+/* Handles styling for floatleft class */
+.floatleft { 
+  	float:left; /* Floats elements to the left */
+	padding-right: 2em; /* Sets right padding to 2em */
+  	padding-bottom: 2em; /* Sets bottom padding to 2em */
+  
+}
+
+/* Table styling */
+table {
+	margin-top: 20px; /* Top margin 20px */
+	margin-left: 250px; /* Sets left margin to 250px */
+	margin-right: 120px; /* Sets right margin to 120px */
+	border: 5px solid #000066; /* 5px solid border with dark blue color */
+	width: 600px; 		/* Sets width to 600px */
+	border-spacing: 0;	/* No spacing */
+}
+/* Table cell styling */
+td, th {  
+         padding: 0.5em; /* Internal cell padding */
+         font-family: Arial, sans-serif;  /* Sets font for table cells */
+	border: 1px solid #000066; 	/* Sets a 1px solid border with dark blue color */
+}
+
+/* Table caption styling */
+caption { font-family: Verdana, sans-serif; /* Sets font for caption */
+          font-weight: bold;		/* Sets font weight to bold */
+          font-size: 1.2em;		/* Sets font size to 1.2em */
+          padding-bottom: 0.5em; 	/* Sets padding to bottom to 0.5em */
+}
+
+/* Handles form styling */
+form { 
+	font-family: Arial, sans-serif; /* Sets font for form */
+        width: 600px; /* Sets width to 600px */
+ 	padding: 10px; /* Sets padding to 10px */
+	margin-top: 20px; /* Sets top margin to 20px */
+	margin-left: 250px; /* Sets left margin to 250px */
+	margin-right: 120px; /* Sets right margin to 120px */
+}
+/* Form label styling */
+label { float: left; /* Float labels left */
+	clear: left;  /* Clear previous floats */
+	display: block;  /* Display as block element */
+	width: 100px;   /* Sets width for 100px */
+	text-align: right;  /* Aligns text right */
+	padding-right: 10px; /* Sets right padding to 10px */
+	margin-top: 10px;  /* Sets top margin to 10px */
+	font-weight: bold; /* Sets font weight to bold */
+}
+/* Fieldset styling */
+fieldset { border: 5px solid #000066; /* Sets a 5px solid border matching table */
+}
+
+/* Handles legend styling */
+legend {
+	font-weight: bold; /* Sets font weight to bold */
+	font-size: 1.2em; /* Sets font size to 1.2 em */
+}
+/* Hanldes input and textarea styling */
+input, textarea { margin-top: 10px;  /* Sets top margin to 10px */ 
+                  display: block; /* Sets display as block */
+}
+/* Handles submit button styling */
+input[type="submit"] { margin-left: 110px; /* Sets left margin to 110px */
+ }
+
+/* Mobile-first modifications */
+@media screen and (max-width: 940px) {
+    #wrapper {
+        width: 100%;
+        min-width: 0; 
+    }
+    
+    nav {
+        position: static; 
+        width: 100%;
+        float: none;
+        font-size: 1.5em; 
+    }
+    
+    nav ul {
+        padding: 0;
+    }
+    
+    nav li {
+        padding-bottom: 15px; 
+        border-bottom: 1px solid #00005D;
+    }
+    
+    nav a {
+        position: static; 
+        padding: 12px 20px; 
+        display: block;
+    }
+    
+    main {
+        margin: 0;
+        padding: 15px;
+    }
+    
+    #orcaHome, #orcaAbout, #trash, 
+    #fourOrcas, #oceanContact, table, form {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    #informationcolumn {
+        margin-left: 0;
+    }
+    
+    footer {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+/* Additional mobile optimization for very small screens */
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 120%;
+        padding: 10px 5px;
+    }
+    
+    nav {
+        font-size: 1.2em;
+    }
+    
+    p {
+        font-size: 100%; 
+    }
+    
+    .floatleft {
+        float: none;
+        padding-right: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    form {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    label {
+        float: none;
+        text-align: left;
+        width: auto;
+    }
+    
+    input[type="submit"] {
+        margin-left: 0;
+    }
+}
+
